@@ -1,7 +1,10 @@
+.main {
+    padding: 94px 0;
+}
 .filter__list {
     display: flex;
     justify-content: center;
-    padding: 94px 0 50px;
+    padding-bottom: 50px;
 }
 .filter__item {
     margin-right: 8px;
@@ -41,7 +44,6 @@
 .product-list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
 
     &__item {
         flex-basis: calc(100% / 3 - 30px);

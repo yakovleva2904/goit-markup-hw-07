@@ -559,10 +559,14 @@ img {
   fill: currentColor;
 }
 
+.main {
+  padding: 94px 0;
+}
+
 .filter__list {
   display: flex;
   justify-content: center;
-  padding: 94px 0 50px;
+  padding-bottom: 50px;
 }
 
 .filter__item {
@@ -599,7 +603,6 @@ img {
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .product-list__item {
