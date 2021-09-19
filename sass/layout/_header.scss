@@ -1,5 +1,7 @@
 .header {
-    border-bottom: 1px solid #ECECEC;
+    &--underline {
+        border-bottom: 1px solid #ECECEC;
+    }
 
     &__wrapper {
         display: flex;
